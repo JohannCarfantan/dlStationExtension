@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Télécharger sur le NAS",
+  "short_name": "Télécharger",
+  "description": "Débride le lien puis l'ajoute à la liste des téléchargements du NAS",
+  "version": "0.0.1",
+  "minimum_chrome_version": "38",
+  "permissions": ["<all_urls>", "contextMenus"],
+  "icons": {
+    "16": "assets/dl.png"
+  },
+  "background": {"page": "background.html"}
+}
